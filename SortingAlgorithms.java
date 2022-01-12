@@ -12,7 +12,7 @@ public class SortingAlgorithms
 		{
 			for(int x=0; x<nums.length-1; x++)//Loops through by n squared
 			{
-				if(nums[x]>nums[x+1]; //if the left hand number is greater than the right hand number
+				if(nums[x]>nums[x+1]) //if the left hand number is greater than the right hand number
 				{
 					temp = nums[x];//temp holds value of the value at position x;
 					nums[x] = nums[x+1];//left hand number's position is taken by the smaller right hand value;
@@ -37,9 +37,9 @@ public class SortingAlgorithms
 	 }
 	 public void selectionSort()
 	 {
-		 for(x=0; x<nums.length-1; x++){//loops through values from 0 to second to last value in array
+		 for(int x=0; x<nums.length-1; x++){//loops through values from 0 to second to last value in array
 		 int min = x;//minimum variable is set to x;
-			for(int y=1; y<n; y++)//values from one to end of array are candidates to be compared
+			for(int y=1; y<nums.length; y++)//values from one to end of array are candidates to be compared
 			{
 				if(nums[y]<nums[min])//loops through the array to find the smallest number
 				{
@@ -52,9 +52,4 @@ public class SortingAlgorithms
 		}
 	}
 }
-			 
-			 
-		 
-			 
-		 
 		
